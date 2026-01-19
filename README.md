@@ -28,9 +28,7 @@ The main screen uses a **Tab Layout** with three tabs:
   - **Mark as Done**
     - Marks the current task as completed
     - Automatically loads the next task of the day
-    - If no tasks remain, shows a completed screen with the last task greyed out
-  - **Postpone**
-    - Delays the current task
+    - If no tasks remain, shows a completed screen with the all the tasks
 
 ---
 
@@ -40,15 +38,12 @@ The main screen uses a **Tab Layout** with three tabs:
 - Completed tasks:
   - Greyed out
   - Moved to the bottom
-- Clicking a task opens detailed view (same as Task Tab)
 
 ---
 
 #### 3. Calendar Tab
 - Displays a calendar for:
-  - Current month
-  - Next month
-- Selecting a date shows all tasks for that day
+  - Selecting a date shows all tasks for that day
 - Floating Action Button (**+**):
   - Create or edit tasks
   - Enter title, description, and time details
@@ -65,10 +60,10 @@ The main screen uses a **Tab Layout** with three tabs:
 ## Tech Stack
 - Android
 - Kotlin
-- Jetpack Compose (if applicable)
+- Jetpack Compose
 - Material Design
 
 ---
 
 ## Status
-🚧 Work in Progress
+- Completed
